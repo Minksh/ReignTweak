@@ -23,3 +23,7 @@ reigntweak fps 75 ultrawide %command%
 
 Download from the releases tab- and put reigntweak somewhere in your path.
 (usr/bin)
+
+## Acknowledgements
+
+https://github.com/techiew/EldenRingMods For the Ultrawide patterns
