@@ -11,6 +11,7 @@
 > - Works **ONLY** on Proton/Wine due to how EAC is implemented on Linux.  
 > - As of **27-07-2025**, it is **CURRENTLY online safe**. 
 > - Main cpp code is currently not provided as it might enable cheating.
+> - Use at your own risk (obviously)
 
 ---
 
