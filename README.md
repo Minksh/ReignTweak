@@ -21,8 +21,7 @@
 reigntweak fps 75 ultrawide %command%
 
 ## Installation
-
-Download from the releases tab- and put reigntweak somewhere in your path.
+[Download from the Releases tab](https://github.com/Minksh/ReignTweak/releases/tag/Release) – and put `reigntweak` somewhere in your $PATH.
 (usr/bin)
 
 ## Acknowledgements
