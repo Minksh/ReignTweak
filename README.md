@@ -9,7 +9,8 @@
 
 > ⚠️ **Note:**  
 > - Works **ONLY** on Proton/Wine due to how EAC is implemented on Linux.  
-> - As of **27-07-2025**, it is **CURRENTLY online safe**. 
+> - As of **27-07-2025**, it is **CURRENTLY online safe**.
+> - Should work across multiple patch versions- but new features or bugfixes might be added in the future.
 > - Main cpp code is currently not provided as it might enable cheating.
 > - Use at your own risk (obviously)
 
