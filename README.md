@@ -14,8 +14,8 @@ Use at your own risk (obviously)
 <img src="https://github.com/user-attachments/assets/6bc5a4c4-4812-4697-94d6-2a596d582436" style="width: 50%;">
 
 ## Installation
-put `reigntweak` somewhere in your $PATH. (from releases) or build it yourself using the provided bash script.
-(/usr/local/bin/)
+put `reigntweak` somewhere in your $PATH (/usr/local/bin/). (from releases) or build it yourself using the provided bash script.
+
 
 ### DEPTH BUFFER SCALING IS VERY EXPERIMENTAL 
 The lowest it will go is lowres_depth 480, not giving a value will default to half res. Might crash your game while loading.
