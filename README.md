@@ -14,7 +14,7 @@ Use at your own risk (obviously)
 <img src="https://github.com/user-attachments/assets/6bc5a4c4-4812-4697-94d6-2a596d582436" style="width: 50%;">
 
 ## Installation
-put `reigntweak` somewhere in your $PATH.
+put `reigntweak` somewhere in your $PATH. (from releases) or build it yourself using the provided bash script.
 (/usr/local/bin/)
 
 ### DEPTH BUFFER SCALING IS VERY EXPERIMENTAL 
