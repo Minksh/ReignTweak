@@ -1,31 +1,40 @@
 #  ReignTweak 
 
-![Platform](https://img.shields.io/badge/platform-Linux%20(Only)-blue?style=for-the-badge)
-![Proton/Wine](https://img.shields.io/badge/compatibility-Proton%2FWine-purple?style=for-the-badge)
+![Proton](https://img.shields.io/badge/compatibility-Proton%2FWine-purple?style=for-the-badge)
 
  **ReignTweak** is a runtime tool that allows you to:
--  **Patch the framerate**
--  **Apply ultrawide tweaks**
+-  Patch the framerate
+-  Apply ultrawide
+-  Use experimental depth buffer scaling for a (potential) performance gain
 
-> ⚠️ **Note:**  
-> - Works **ONLY** on Proton/Wine due to how EAC is implemented on Linux.  
-> - As of **27-07-2025**, it is **CURRENTLY online safe**.
-> - Should work across multiple patch versions- but new features or bugfixes might be added in the future.
-> - Main cpp code is currently not provided as it might enable cheating.
-> - Use at your own risk (obviously)
+Works **ONLY** on Proton/Wine due to how EAC is implemented on Linux.  
+Use at your own risk (obviously)
 
 ---
 <img src="https://github.com/user-attachments/assets/6bc5a4c4-4812-4697-94d6-2a596d582436" style="width: 50%;">
 
-
-
-##  Example launch option
-
-reigntweak fps 75 ultrawide %command%
-
 ## Installation
-[Download from the Releases tab](https://github.com/Minksh/ReignTweak/releases/tag/Release) – and put `reigntweak` somewhere in your $PATH.
-(usr/bin)
+put `reigntweak` somewhere in your $PATH.
+(/usr/local/bin/)
+
+### DEPTH BUFFER SCALING IS VERY EXPERIMENTAL 
+The lowest it will go is lowres_depth 480, not giving a value will default to half res. Might crash your game while loading.
+
+## Usage
+
+
+- reigntweak fps <val>         - Changes FPS limit
+- reigntweak ultrawide         - Applies ultrawide patch
+- reigntweak detect_buffers    - Scans for depth buffer logic (requires running game) DEBUGGING ONLY
+- reigntweak lowres_depth      - Patches depth buffers to lower res, default value (when none is given) is half native res.
+
+### MAKE SURE YOU RUN THE GAME IN WINDOWED OR BORDERLESS MODE!!!
+
+## Example launch options:
+
+reigntweak fps 100 ultrawide lowres_depth %command%
+
+
 
 ## Acknowledgements
 
