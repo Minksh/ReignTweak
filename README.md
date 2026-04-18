@@ -24,7 +24,7 @@ The lowest it will go is lowres_depth 480, not giving a value will default to ha
 
 
 - reigntweak fps <val>         - Changes FPS limit
-- reigntweak ultrawide         - Applies ultrawide patch
+- reigntweak ultrawide         - Applies ultrawide patch (Can't be used with lowres_depth)
 - reigntweak detect_buffers    - Scans for depth buffer logic (requires running game) DEBUGGING ONLY
 - reigntweak lowres_depth      - Patches depth buffers to lower res, default value (when none is given) is half native res.
 
@@ -32,7 +32,7 @@ The lowest it will go is lowres_depth 480, not giving a value will default to ha
 
 ## Example launch options:
 
-reigntweak fps 100 ultrawide lowres_depth %command%
+reigntweak fps 100 ultrawide %command%
 
 
 
