@@ -29,7 +29,7 @@ The lowest it will go is lowres_depth 480, not giving a value will default to ha
 - reigntweak lowres_depth      - Patches depth buffers to lower res, default value (when none is given) is half native res.
 
 ### MAKE SURE YOU RUN THE GAME IN WINDOWED OR BORDERLESS MODE!!!
-
+###FOR ULTRAWIDE, CHANGE THE RESOLUTION IN GAME FOR IT TO TAKE EFFECT!
 ## Example launch options:
 
 reigntweak fps 100 ultrawide %command%
